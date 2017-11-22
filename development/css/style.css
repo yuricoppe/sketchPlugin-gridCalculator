@@ -9,30 +9,49 @@ html {
   box-sizing: inherit;
 }
 
-/* line 23, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+/* line 9, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+*:focus {
+  outline: none;
+}
+
+/* line 26, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
 body {
   margin: 0;
   padding: 0;
 }
 
-/* line 30, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+/* line 33, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
 h1, h2, h3, h4, p, label, input {
   font-family: Menlo-Bold;
   color: #9295A1;
 }
 
-/* line 37, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+/* line 40, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
 .main-container {
   width: 176px;
-  height: 618px;
   background: #292C31;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
   border-radius: 4px;
   margin: 0 auto;
-  padding: 32px;
 }
 
 /* line 49, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+.container {
+  padding: 32px 32px 0 32px;
+}
+
+/* line 54, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+div.top-navigation {
+  padding: 8px;
+  margin-bottom: -24px;
+}
+
+/* line 58, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+.btn-settings {
+  float: right;
+}
+
+/* line 64, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
 input {
   width: 100%;
   background-color: #292C31;
@@ -42,20 +61,96 @@ input {
   margin: 4px 0px 16px 0px;
 }
 
-/* line 57, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
-label {
-  font-size: 14px;
+/* line 71, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+input:hover {
+  cursor: ew-resize;
 }
 
-/* line 60, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+/* line 74, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+label {
+  font-size: 14px;
+  font-family: Menlo;
+}
+
+/* line 78, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+select {
+  width: 100%;
+  height: 40px;
+  background-color: #393D44;
+  border: 1px solid #212327;
+  color: #9295A1;
+  font-family: Menlo;
+  font-size: 12px;
+  margin-bottom: 24px;
+}
+
+/* line 87, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+select:hover {
+  cursor: pointer;
+}
+
+/* line 90, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
 div.input {
   border-bottom: 1px solid #393D44;
   margin-bottom: 16px;
 }
 
-/* line 63, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+/* line 93, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
 div.input:last-child {
   border: none;
+}
+
+/* line 96, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+.regular-checkbox {
+  display: none;
+}
+
+/* line 99, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+.on-outside label {
+  display: inline;
+}
+
+/* line 102, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+.regular-checkbox + label {
+  background-color: #393D44;
+  border: 1px solid #212327;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+}
+
+/* line 110, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+.regular-checkbox:checked + label {
+  background-image: url(../images/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 118, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+button {
+  width: 100%;
+  height: 40px;
+  background: #27A8DA;
+  border-radius: 4px;
+  border: none;
+  font-family: Menlo-Bold;
+  font-size: 14px;
+  color: #292C31;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+/* line 129, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+button:hover {
+  cursor: pointer;
+}
+
+/* line 132, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+.main-button {
+  background: #212327;
+  padding: 32px;
+  border-radius: 0 0 4px 4px;
 }
 
 /*# sourceMappingURL=../css/style.map */
