@@ -1,10 +1,64 @@
+/* Box Model Fix */
+// apply a natural box layout model to all elements, but allowing components to change */
+html
+  box-sizing: border-box
+
+*, *:before, *:after
+  box-sizing: inherit
+
 // Colors
 
-$gray-500: #212327
-$gray-400: #292C31
-$gray-300: #393D44
-$gray-200: #75777F
-$gray-100: #9295A1
-$blue    : #27A8DA
-$orange  : #F98643
-$red     : #8B3131
+$gray-500 : #212327
+$gray-400 : #292C31
+$gray-300 : #393D44
+$gray-200 : #75777F
+$gray-100 : #9295A1
+$blue     : #27A8DA
+$orange   : #F98643
+$red      : #8B3131
+
+
+// body
+
+body
+  margin: 0
+  padding: 0
+
+
+// Typography
+
+h1, h2, h3, h4, p, label, input
+  font-family: Menlo-Bold
+  color: $gray-100
+
+
+// Main Container
+
+.main-container
+  width: 176px
+  height: 618px
+  background: $gray-400
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.50)
+  border-radius: 4px
+  margin: 0 auto
+  padding: 32px
+
+
+// Inputs
+
+input
+  width: 100%
+  background-color: $gray-400
+  border: none
+  color: $blue
+  font-size: 24px
+  margin: 4px 0px 16px 0px
+
+label
+  font-size: 14px
+
+div.input
+  border-bottom: 1px solid $gray-300
+  margin-bottom: 16px
+  &:last-child
+    border: none
