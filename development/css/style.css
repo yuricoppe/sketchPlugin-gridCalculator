@@ -1,0 +1,61 @@
+/* Box Model Fix */
+/* line 3, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+html {
+  box-sizing: border-box;
+}
+
+/* line 6, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* line 23, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 30, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+h1, h2, h3, h4, p, label, input {
+  font-family: Menlo-Bold;
+  color: #9295A1;
+}
+
+/* line 37, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+.main-container {
+  width: 176px;
+  height: 618px;
+  background: #292C31;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+/* line 49, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+input {
+  width: 100%;
+  background-color: #292C31;
+  border: none;
+  color: #27A8DA;
+  font-size: 24px;
+  margin: 4px 0px 16px 0px;
+}
+
+/* line 57, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+label {
+  font-size: 14px;
+}
+
+/* line 60, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+div.input {
+  border-bottom: 1px solid #393D44;
+  margin-bottom: 16px;
+}
+
+/* line 63, /Users/ycoppe/OneDrive - Dentsu Aegis Network/_Hoje/GridPlugin/development/sass/style.sass */
+div.input:last-child {
+  border: none;
+}
+
+/*# sourceMappingURL=../css/style.map */

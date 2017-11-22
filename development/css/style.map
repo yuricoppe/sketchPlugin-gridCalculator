@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"/* Box Model Fix */\n// apply a natural box layout model to all elements, but allowing components to change */\nhtml {\n  box-sizing: border-box; }\n\n*, *:before, *:after {\n  box-sizing: inherit; }\n\n// Colors\n\n$gray-500 : #212327;\n$gray-400 : #292C31;\n$gray-300 : #393D44;\n$gray-200 : #75777F;\n$gray-100 : #9295A1;\n$blue     : #27A8DA;\n$orange   : #F98643;\n$red      : #8B3131;\n\n\n// body\n\nbody {\n  margin: 0;\n  padding: 0; }\n\n\n// Typography\n\nh1, h2, h3, h4, p, label, input {\n  font-family: Menlo-Bold;\n  color: $gray-100; }\n\n\n// Main Container\n\n.main-container {\n  width: 176px;\n  height: 618px;\n  background: $gray-400;\n  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.50);\n  border-radius: 4px;\n  margin: 0 auto;\n  padding: 32px; }\n\n\n// Inputs\n\ninput {\n  width: 100%;\n  background-color: $gray-400;\n  border: none;\n  color: $blue;\n  font-size: 24px;\n  margin: 4px 0px 16px 0px; }\n\nlabel {\n  font-size: 14px; }\n\ndiv.input {\n  border-bottom: 1px solid $gray-300;\n  margin-bottom: 16px;\n  &:last-child {\n    border: none; } }\n"
+	],
+	"mappings": "AAAA,mBAAmB;;AAEnB,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,UAAW;CAAG;;;AAE5B,AAAA,CAAC,EAAE,AAAC,CAAA,AAAA,OAAO,EAAE,AAAC,CAAA,AAAA,MAAM,CAAC;EACnB,UAAU,EAAE,OAAQ;CAAG;;;AAgBzB,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,CAAE;EACV,OAAO,EAAE,CAAE;CAAG;;;AAKhB,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,CAAC,EAAE,AAAA,KAAK,EAAE,AAAA,KAAK,CAAC;EAC9B,WAAW,EAAE,UAAW;EACxB,KAAK,EAjBK,OAAO;CAiBE;;;AAKrB,AAAA,eAAe,CAAC;EACd,KAAK,EAAE,KAAM;EACb,MAAM,EAAE,KAAM;EACd,UAAU,EA5BA,OAAO;EA6BjB,UAAU,EAAE,CAAC,CAAC,GAAG,CAAC,IAAI,CAAC,CAAC,CAAC,kBAAI;EAC7B,aAAa,EAAE,GAAI;EACnB,MAAM,EAAE,MAAO;EACf,OAAO,EAAE,IAAK;CAAG;;;AAKnB,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,IAAK;EACZ,gBAAgB,EAvCN,OAAO;EAwCjB,MAAM,EAAE,IAAK;EACb,KAAK,EArCK,OAAO;EAsCjB,SAAS,EAAE,IAAK;EAChB,MAAM,EAAE,gBAAiB;CAAG;;;AAE9B,AAAA,KAAK,CAAC;EACJ,SAAS,EAAE,IAAK;CAAG;;;AAErB,AAAG,GAAA,AAAA,MAAM,CAAC;EACR,aAAa,EAAE,GAAG,CAAC,KAAK,CAhDd,OAAO;EAiDjB,aAAa,EAAE,IAAK;CAEA;;;AAJtB,AAAG,GAAA,AAAA,MAAM,AAGN,WAAW,CAAC;EACX,MAAM,EAAE,IAAK;CAAG",
+	"names": []
+}
