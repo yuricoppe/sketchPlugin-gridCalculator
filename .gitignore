@@ -1,4 +1,4 @@
-
-
 # Ignore sketch files
 *.sketch
+.gitignore
+.DS_Store
