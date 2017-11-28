@@ -17,38 +17,48 @@
 
         <section class="presets">
           <div class="dropdown">
-            <select class="" name="">
-              <option value="">Presets</option>
-              <option value="">Presets</option>
-              <option value="">FUCK</option>
-              <option value="">YOU</option>
+            <select class="" name="" value="Presets">
+              <option value="320" class="device-link">iPhone SE - 320px</option>
+              <option value="375" class="device-link">iPhone 7 - 375px</option>
+              <option value="414" class="device-link">iPhone 7 plus - 414px</option>
+              <option value="768" class="device-link">iPad - 768px</option>
+              <option value="1024" class="device-link">iPad pro - 1024px</option>
+
+              <option value="360" class="device-link">Mobile - 360px</option>
+              <option value="600" class="device-link">Tablet 7" - 600px</option>
+              <option value="758" class="device-link">Tablet 9" - 768px</option>
+
+              <option value="960" class="device-link">Desktop - 960px</option>
+              <option value="1280" class="device-link">Desktop - 1280px</option>
+              <option value="1440" class="device-link">Desktop - 1440px</option>
+              <option value="1920" class="device-link">Desktop - 1920px</option>
             </select>
           </div>
         </section>
 
-        <section class="input-group">
+        <section id="form" class="input-group">
 
           <div class="input">
-            <label for="totalWidth">Total Width</label>
-            <input type="number" name="totalWidth" value="1024">
+            <label  for="totalWidth">Total Width</label>
+            <input id="full-width" type="number" name="totalWidth" value="1024">
           </div>
 
           <div class="input">
-            <label for="columns">Collumns</label>
-            <input type="number" name="columns" value="6">
+            <label  for="columns">Columns</label>
+            <input id="columns" type="number" name="columns" value="6">
           </div>
 
           <div class="input">
             <label for="colWidth">Col Width</label>
-            <input type="number" name="colWidth" value="144">
+            <input id="col-width" type="number" name="colWidth" value="144">
           </div>
 
           <div class="input">
             <label for="gutters">Gutters</label>
-            <input type="number" name="gutters" value="32">
+            <input id="gutter" type="number" name="gutters" value="32">
             <div class="on-outside">
               <input type="checkbox" name="onOutside" value="" class="regular-checkbox">
-              <label for="onOutside"></label>
+              <label for="onOutside">on outside</label>
             </div>
           </div>
 
@@ -59,5 +69,7 @@
         <button type="button" name="button">Create</button>
       </section>
     </div>
+
+    <script src="js/script.js" charset="utf-8"></script>
   </body>
 </html>

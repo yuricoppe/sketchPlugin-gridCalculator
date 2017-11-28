@@ -56,6 +56,8 @@ html
 *:focus
   outline: none
 
+///////////////////////////////////////
+
 // Colors
 
 $gray-500 : #212327
@@ -109,7 +111,7 @@ div.top-navigation
 
 // Inputs
 
-input
+.input input
   width: 100%
   background-color: $gray-400
   border: none
@@ -142,24 +144,8 @@ div.input
   &:last-child
     border: none
 
-.regular-checkbox
-  display: none
-
-.on-outside label
-	display: inline
-
-.regular-checkbox + label
-  background-color: $gray-300
-  border: 1px solid $gray-500
-  padding: 8px
-  border-radius: 4px
-  display: inline-block
-  position: relative
-
-.regular-checkbox:checked + label
-  background-image: url(../images/check.svg)
-  background-repeat: no-repeat
-  background-position: center
+input.regular-checkbox
+  width: 16px
 
 
 // Buttons
