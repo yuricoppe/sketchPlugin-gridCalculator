@@ -1,8 +1,8 @@
 @import "MochaJSDelegate.js";
 
 function onRun(context) {
-  var panelWidth = 576;
-  var panelHeight = 440;
+  var panelWidth = 176;
+  var panelHeight = 620;
 
   // Create an NSThread dictionary with a specific identifier
   var threadDictionary = NSThread.mainThread().threadDictionary();
