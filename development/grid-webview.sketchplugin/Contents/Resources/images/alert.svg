@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="18px" height="15px" viewBox="0 0 18 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>alerta</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(-100.000000, -333.000000)">
+            <g id="Stacked-Group" transform="translate(32.000000, 115.000000)">
+                <g id="col-width" transform="translate(0.000000, 186.000000)">
+                    <g id="alerta" transform="translate(67.000000, 31.000000)">
+                        <path d="M11.6959966,2.71359457 L18.0875013,12.9400021 L18.0875013,12.9400021 C18.672922,13.8766752 18.3881757,15.1105759 17.4515026,15.6959966 C17.1336394,15.8946611 16.7663442,16 16.3915047,16 L3.60849528,16 L3.60849528,16 C2.50392578,16 1.60849528,15.1045695 1.60849528,14 C1.60849528,13.6251606 1.71383417,13.2578653 1.91249868,12.9400021 L8.30400339,2.71359457 L8.30400339,2.71359457 C8.88942406,1.77692151 10.1233248,1.49217518 11.0599979,2.07759584 C11.3175361,2.23855726 11.5350352,2.45605631 11.6959966,2.71359457 Z" id="Triangle-2" fill="#8B3131"></path>
+                        <path d="M9,5 L11,5 L11,11 L9,11 L9,5 Z M9,12 L11,12 L11,14 L9,14 L9,12 Z" id="Combined-Shape" fill="#292C31"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Grid Maker MtrFckr Plus</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="main-container">
+
+      <div class="top-navigation">
+        <a href="#"><img class="btn-close" src="images/close.svg"></img></a>
+        <a href="#"><img class="btn-settings" src="images/cog.svg"></img></a>
+      </div>
+
+      <div class="container">
+
+        <section class="presets">
+          <div class="dropdown">
+            <select id="presetsSelect" name="" value="Presets">
+              <optgroup label="Apple devices">
+                <option selected value="320" class="device-link">iPhone SE - 320px</option>
+                <option value="375" class="device-link">iPhone 7 - 375px</option>
+                <option value="414" class="device-link">iPhone 7 plus - 414px</option>
+                <option value="768" class="device-link">iPad - 768px</option>
+                <option value="1024" class="device-link">iPad pro - 1024px</option>
+              </optgroup>
+
+              <optgroup label="Android devices">
+                <option value="360" class="device-link">Mobile - 360px</option>
+                <option value="600" class="device-link">Tablet 7" - 600px</option>
+                <option value="758" class="device-link">Tablet 9" - 768px</option>
+              </optgroup>
+              
+              <optgroup label="Desktop devices">
+                <option value="960" class="device-link">Desktop - 960px</option>
+                <option value="1280" class="device-link">Desktop - 1280px</option>
+                <option value="1440" class="device-link">Desktop - 1440px</option>
+                <option value="1920" class="device-link">Desktop - 1920px</option>
+              </optgroup>
+            </select>
+          </div>
+        </section>
+
+        <section id="form" class="input-group">
+
+          <div class="input">
+            <label  for="totalWidth">Total Width</label>
+            <input id="full-width" type="number" name="totalWidth" value="1024">
+          </div>
+
+          <div class="input">
+            <label  for="columns">Columns</label>
+            <input id="columns" type="number" name="columns" value="6">
+          </div>
+
+          <div class="input">
+            <label for="colWidth">Col Width</label>
+            <input id="col-width" type="number" name="colWidth" value="144">
+          </div>
+
+          <div class="input">
+            <label for="gutters">Gutters</label>
+            <input id="gutter" type="number" name="gutters" value="32">
+            <div class="on-outside">
+              <input type="checkbox" name="onOutside" value="" class="regular-checkbox">
+              <label for="onOutside">on outside</label>
+            </div>
+          </div>
+
+        </section>
+
+      </div>
+      <section class="main-button">
+        <button type="button" name="button">Create</button>
+      </section>
+    </div>
+
+    <script src="js/script.js" charset="utf-8"></script>
+  </body>
+</html>

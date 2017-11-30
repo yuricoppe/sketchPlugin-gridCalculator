@@ -1,0 +1,24 @@
+{
+  "name" : "Floating Example",
+  "identifier" : "co.awkward.floatingexample",
+  "version" : "1.0",
+  "description" : "An example of a plugin with a floating panel.",
+  "author" : "Marc Bouchenoire",
+  "commands" : [
+    {
+      "script" : "plugin.js",
+      "handlers": {
+        "run": "onRun",
+        "actions": {
+          "SelectionChanged.finish": "onSelectionChanged",
+        }
+      },
+      "name" : "Floating Example",
+      "identifier" : "co.awkward.floatingexample.command"
+    }
+  ],
+  "menu": {
+    "isRoot": true,
+    "items": ["co.awkward.floatingexample.command"]
+  }
+}
