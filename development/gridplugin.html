@@ -18,20 +18,26 @@
         <section class="presets">
           <div class="dropdown">
             <select id="presetsSelect" name="" value="Presets">
-              <option selected value="320" class="device-link">iPhone SE - 320px</option>
-              <option value="375" class="device-link">iPhone 7 - 375px</option>
-              <option value="414" class="device-link">iPhone 7 plus - 414px</option>
-              <option value="768" class="device-link">iPad - 768px</option>
-              <option value="1024" class="device-link">iPad pro - 1024px</option>
+              <optgroup label="Apple devices">
+                <option selected value="320" class="device-link">iPhone SE - 320px</option>
+                <option value="375" class="device-link">iPhone 7 - 375px</option>
+                <option value="414" class="device-link">iPhone 7 plus - 414px</option>
+                <option value="768" class="device-link">iPad - 768px</option>
+                <option value="1024" class="device-link">iPad pro - 1024px</option>
+              </optgroup>
 
-              <option value="360" class="device-link">Mobile - 360px</option>
-              <option value="600" class="device-link">Tablet 7" - 600px</option>
-              <option value="758" class="device-link">Tablet 9" - 768px</option>
-
-              <option value="960" class="device-link">Desktop - 960px</option>
-              <option value="1280" class="device-link">Desktop - 1280px</option>
-              <option value="1440" class="device-link">Desktop - 1440px</option>
-              <option value="1920" class="device-link">Desktop - 1920px</option>
+              <optgroup label="Android devices">
+                <option value="360" class="device-link">Mobile - 360px</option>
+                <option value="600" class="device-link">Tablet 7" - 600px</option>
+                <option value="758" class="device-link">Tablet 9" - 768px</option>
+              </optgroup>
+              
+              <optgroup label="Desktop devices">
+                <option value="960" class="device-link">Desktop - 960px</option>
+                <option value="1280" class="device-link">Desktop - 1280px</option>
+                <option value="1440" class="device-link">Desktop - 1440px</option>
+                <option value="1920" class="device-link">Desktop - 1920px</option>
+              </optgroup>
             </select>
           </div>
         </section>

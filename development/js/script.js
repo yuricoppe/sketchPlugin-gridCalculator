@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded' , changeEventHandler);
 document.getElementById('form').addEventListener('change' , changeEventHandler);
 
 var devicesLinks = document.getElementById('presetsSelect');
-console.log(devicesLinks[0].value);
+// console.log(devicesLinks[0].value);
 
 for (var i = 0; i < devicesLinks.length; i++) {
   devicesLinks[i].addEventListener('click' , changeInputForDevices);
